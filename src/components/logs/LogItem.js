@@ -4,7 +4,7 @@ import Moment from 'react-moment'
 
 const LogItem = ({ log }) => {
   return (
-    <li classname="collection-item">
+    <li className="collection-item">
       <div>
         <a href="#edit-log-modal" className={`modal-trigger ${log.attention ? 'red-text' : 'blue-text'}`}>{log.message}</a>
         <br />
@@ -17,6 +17,7 @@ const LogItem = ({ log }) => {
         </a>
       </div>
     </li>
+
   )
 }
 
